@@ -1,12 +1,10 @@
 
-/* Farben */
 :root {
     --brand-navy: #203451;
     --brand-blue: #356fa6;
     --surface-muted: #f3f6fa;
 }
 
-/* Grundeinstellungen */
 * {
     box-sizing: border-box;
 }
@@ -40,7 +38,6 @@ h1, h2, h3, p {
     margin-top: 0;
 }
 
-/* Navigation */
 .navbar {
     position: sticky;
     top: 0;
@@ -87,7 +84,6 @@ h1, h2, h3, p {
     color: var(--brand-blue);
 }
 
-/* Startbereich */
 .hero-background {
     background: var(--surface-muted);
     min-height: 350px;
@@ -142,7 +138,6 @@ h1, h2, h3, p {
     box-shadow: 0 12px 32px rgba(32, 52, 81, 0.12);
 }
 
-/* Buttons */
 .button {
     display: inline-block;
     padding: 11px 20px;
@@ -161,7 +156,6 @@ h1, h2, h3, p {
     color: #ffffff;
 }
 
-/* Inhaltsabschnitte */
 .section {
     padding: 55px 24px;
     background: #ffffff;
@@ -193,7 +187,6 @@ h1, h2, h3, p {
     background: var(--surface-muted);
 }
 
-/* Karten */
 .card-grid {
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -247,12 +240,10 @@ h1, h2, h3, p {
     text-decoration: underline;
 }
 
-/* Vorteile */
 .advantage {
     padding: 5px 0;
 }
 
-/* Kontakt */
 .contact-box {
     background: var(--surface-muted);
     border-left: 4px solid var(--brand-blue);
@@ -264,7 +255,6 @@ h1, h2, h3, p {
     margin-bottom: 20px;
 }
 
-/* Footer */
 .footer {
     background: var(--brand-navy);
     padding: 30px 24px;
@@ -286,7 +276,6 @@ h1, h2, h3, p {
     margin-bottom: 0;
 }
 
-/* Tablet */
 @media screen and (max-width: 900px) {
     .hero-logo {
         width: 200px;
@@ -301,7 +290,6 @@ h1, h2, h3, p {
     }
 }
 
-/* Smartphone */
 @media screen and (max-width: 768px) {
     .nav-content {
         flex-direction: column;
